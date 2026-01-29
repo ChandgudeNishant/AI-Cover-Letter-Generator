@@ -1,0 +1,21 @@
+{
+  "name": "ai-cover-letter-generator",
+  "version": "1.0.0",
+  "description": "AI-powered cover letter generator with React frontend and Express backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "server:dev": "cd backend && npm run dev",
+    "client:dev": "cd frontend && npm run dev",
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "keywords": ["ai", "cover-letter", "openai", "react", "express"],
+  "author": "AI Cover Letter Generator",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
