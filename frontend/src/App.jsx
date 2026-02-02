@@ -5,6 +5,7 @@ import PersonalDetailsForm from "./components/PersonalDetailsForm";
 import CoverLetterDisplay from "./components/CoverLetterDisplay";
 import LoadingSpinner from "./components/LoadingSpinner";
 import ErrorDisplay from "./components/ErrorDisplay";
+import Footer from "./components/Footer";
 import {
   generateCoverLetter,
   rephraseCoverLetter,
@@ -245,6 +246,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
